@@ -37,7 +37,7 @@ class News extends Component {
         <div class="container news">
             {this.state.articles.map((item)=>
             <Card className="cardNews">
-                <CardImg top width="100%" src={item.urlToImage} alt="Soft News" />
+                <CardImg top width="80%" src={item.urlToImage} alt="Soft News" />
                 <CardBody>
                     <CardTitle><h5>{item.title}</h5></CardTitle>
                     <CardSubtitle><b>Author: {item.author}</b></CardSubtitle>
