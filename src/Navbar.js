@@ -25,7 +25,7 @@ const NavbarNews = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="/"><b>Lifestyle</b></NavLink>
+                            <NavLink href="/"><b>Bitcoin</b></NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/"><b>Health</b></NavLink>
