@@ -14,7 +14,7 @@ class News extends Component {
 
     componentDidMount(){
         let curretNews = this;
-        fetch("../v2/everything?q=bitcoin&from=2020-04-23&sortBy=publishedAt&apiKey=3f8cfbece7ec4ef3a90057785a82e55a")
+        fetch("/v2/everything?q=bitcoin&from=2020-05-23&sortBy=publishedAt&apiKey=570d1dc6ee634abda8de751861db67a2")
         .then(
             function (response) {
                 if (response.status !== 200) {
